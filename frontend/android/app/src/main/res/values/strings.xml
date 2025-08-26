@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">amee\'s physio app</string>
+    <string name="title_activity_main">amee\'s physio app</string>
+    <string name="package_name">com.amee.physioapp</string>
+    <string name="custom_url_scheme">com.amee.physioapp</string>
+</resources>

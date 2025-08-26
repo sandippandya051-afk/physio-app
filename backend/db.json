@@ -1,0 +1,44 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "progress": [
+        { "date": "2025-08-01", "score": 70 },
+        { "date": "2025-08-05", "score": 75 },
+        { "date": "2025-08-10", "score": 80 }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "progress": [
+        { "date": "2025-08-02", "score": 60 },
+        { "date": "2025-08-07", "score": 65 },
+        { "date": "2025-08-12", "score": 72 }
+      ]
+    }
+  ],
+  "exercises": [
+    { "id": 1, "name": "Neck Stretch", "description": "Gentle neck stretching exercise", "category": "Neck", "difficulty": "Easy" },
+    { "id": 2, "name": "Back Extension", "description": "Strengthen back muscles", "category": "Back", "difficulty": "Medium" },
+    { "id": 3, "name": "Leg Raise", "description": "Improves lower limb strength", "category": "Legs", "difficulty": "Easy" },
+    { "id": 4, "name": "Shoulder Shrug", "description": "Relieves shoulder tension", "category": "Shoulder", "difficulty": "Easy" },
+    { "id": 5, "name": "Knee Flexion", "description": "Enhances knee mobility", "category": "Legs", "difficulty": "Medium" },
+    { "id": 6, "name": "Plank", "description": "Core strengthening exercise", "category": "Core", "difficulty": "Hard" },
+    { "id": 7, "name": "Bridge", "description": "Strengthens glutes and core", "category": "Core", "difficulty": "Medium" },
+    { "id": 8, "name": "Heel Raises", "description": "Improves ankle stability", "category": "Balance", "difficulty": "Easy" },
+    { "id": 9, "name": "Single Leg Stand", "description": "Enhances balance and coordination", "category": "Balance", "difficulty": "Medium" },
+    { "id": 10, "name": "Bicep Curl", "description": "Strengthens arm muscles", "category": "Arms", "difficulty": "Easy" },
+    { "id": 11, "name": "Tricep Dips", "description": "Tones triceps and improves arm strength", "category": "Arms", "difficulty": "Medium" }
+  ],
+  "quotes": [
+    { "id": 1, "text": "The body achieves what the mind believes." },
+    { "id": 2, "text": "Push yourself, no one else is going to do it for you." },
+    { "id": 3, "text": "Strength does not come from physical capacity. It comes from an indomitable will." }
+  ],
+  "streaks": [
+    { "id": 1, "patientId": 1, "days": 5 },
+    { "id": 2, "patientId": 2, "days": 3 }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Neck Stretch",
+      "description": "Gently tilt head side to side",
+      "duration": "2 min",
+      "schedule": "2025-08-26T08:30:00Z",
+      "category": "Neck"
+    },
+    {
+      "id": 2,
+      "name": "Shoulder Roll",
+      "description": "Rotate shoulders clockwise & anti-clockwise",
+      "duration": "3 min",
+      "category": "Shoulder"
+    },
+    {
+      "id": 3,
+      "name": "Leg Raise",
+      "description": "Raise one leg at a time while lying down",
+      "duration": "5 min",
+      "category": "Legs"
+    },
+    {
+      "id": 1756033661622,
+      "name": "Back Stretch",
+      "description": "Bend forward gently and hold",
+      "duration": "4 min",
+      "category": "Back"
+    },
+    {
+      "id": 1756034496291,
+      "name": "Back Stretch",
+      "description": "Bend forward gently and hold",
+      "duration": "4 min",
+      "schedule": "2025-08-25T10:00:00Z",
+      "category": "Back"
+    }
+  ],
+  "progress": [
+    {
+      "id": 1756034482517,
+      "exerciseId": 1,
+      "date": "2025-08-24"
+    },
+    {
+      "id": 1756400000001,
+      "exerciseId": 2,
+      "date": "2025-08-25"
+    },
+    {
+      "id": 1756400000002,
+      "exerciseId": 3,
+      "date": "2025-08-25"
+    },
+    {
+      "id": 1756400000003,
+      "exerciseId": 1,
+      "date": "2025-08-26"
+    }
+  ]
+}

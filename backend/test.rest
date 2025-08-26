@@ -1,0 +1,42 @@
+### Root check
+GET http://localhost:5000/
+
+### Get all exercises
+GET http://localhost:5000/exercises
+
+### Add a new exercise (with schedule)
+POST http://localhost:5000/exercises
+Content-Type: application/json
+
+{
+  "name": "Back Stretch",
+  "description": "Bend forward gently and hold",
+  "duration": "4 min",
+  "schedule": "2025-08-25T10:00:00Z"
+}
+
+### Update an exercise (add/change schedule)
+PUT http://localhost:5000/exercises/1
+Content-Type: application/json
+
+{
+  "name": "Neck Stretch",
+  "description": "Gently tilt head side to side",
+  "duration": "2 min",
+  "schedule": "2025-08-26T08:30:00Z"
+}
+
+### Delete an exercise
+DELETE http://localhost:5000/exercises/2
+
+### Get all progress
+GET http://localhost:5000/progress
+
+### Mark an exercise as done
+POST http://localhost:5000/progress
+Content-Type: application/json
+
+{
+  "exerciseId": 1,
+  "date": "2025-08-24"
+}
